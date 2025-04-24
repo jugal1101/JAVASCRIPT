@@ -1,6 +1,0 @@
-a>b
-if true a>c 
-if true a>d
-if true a>e
-if true a (" a is max)
-if a>d is false in that situation, d>e

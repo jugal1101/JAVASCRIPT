@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // wap to find duplicate elements from the array.
+
+
+       let duplicate=[11,20,1,1,'a','b','a','a',11,20,11]
+
+for(let i=0; i<duplicate.length; i++){
+ 
+ for(let j=i+1; j<duplicate.length; j++){
+   if(duplicate[i] == duplicate[j]){
+     document.writeln(duplicate[i])
+     duplicate.splice(j,1)
+     break;
+   }
+   
+ }
+}
+    </script>
+
+</body>
+</html>

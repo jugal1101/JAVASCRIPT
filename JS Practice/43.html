@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Find largest number from array without using Math.max.
+        let array=[234,567,435,678]
+        let large= array[0]
+        array.map((array)=>{
+            if(array>large){
+                large=array;
+            }
+        })
+        document.writeln("Largest number:" + large);
+    </script>
+</body>
+</html>

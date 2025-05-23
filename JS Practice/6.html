@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Count the number of digits in a given number.
+
+        function count(num){
+            let x=0; // 4
+            while(num>0){
+              num= Math.floor(num/10); // 0
+              x++; //4
+            }
+            return x;
+        }
+        let result= count(1234);
+        document.writeln(result)
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Count how many even and odd numbers are in an array.
+      let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+      let even_count=0;
+      let odd_count=0;
+
+      for(let i=0; i<numbers.length; i++){
+        if(numbers[i]%2==0){
+           even_count++;
+        }else{
+          odd_count++;
+        }
+    }
+
+    document.writeln("even count : " + even_count)
+    document.writeln("<br>")
+    document.writeln("odd count : " + odd_count)
+    </script>
+  </body>
+</html>

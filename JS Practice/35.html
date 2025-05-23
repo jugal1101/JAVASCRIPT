@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+        //Find whether a number is Armstrong or not (e.g., 153 = 1³ + 5³ + 3³).
+      function armstrong_number() {
+        let armstrong_num = 153;
+
+        let temp = armstrong_num;
+
+        let sum = 0;
+
+        let length = length_check(armstrong_num);
+
+        while (temp > 0) {
+          // 153
+          let digit = temp % 10; // 3
+          let root = digit ** length; // 27
+          sum += root; // 27
+          temp = Math.floor(temp / 10); // 15
+        }
+
+        if (sum == armstrong_num) {
+          document.writeln("number is armstrong");
+        } else {
+          document.writeln("number is not");
+        }
+      }
+
+      armstrong_number();
+
+      function length_check() {
+        let num = 153;
+        let temp = num; // 2 time = 15, 1
+        let length = 0;
+
+        while (temp > 0) {
+          // loop stop
+          temp = Math.floor(temp / 10); // 15 , 1, 0
+          length++; // 1  2 3
+        }
+        return length;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Create a program that accepts a number and tells if it's a single, double, or triple-digit number.
+
+      let num = prompt("Enter a number:");
+      num = Math.abs(parseInt(num));
+
+      if (num < 10) {
+        alert("Single-digit number");
+      } else if (num < 100) {
+        alert("Double-digit number");
+      } else if (num < 1000) {
+        alert("Triple-digit number");
+      } else {
+        alert("More than three digits");
+      }
+    </script>
+  </body>
+</html>

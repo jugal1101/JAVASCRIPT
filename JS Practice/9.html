@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       //Check if a number is prime.
+       let a=11;
+       let isprime=true;
+
+       if(a<=1){
+           isprime=false;
+       }
+       else{
+        for(let i=2; i<a; i++){
+          if(a%i==0){
+              isprime=false;
+              break;
+          }
+        }
+       }
+
+       document.writeln(isprime? `${n} is a prime number` : `${n} is not a prime number`)
+
+    </script>
+</body>
+</html>

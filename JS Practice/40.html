@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Convert all negative numbers in array to positive.
+      let arr = [1, -3, -4, 2, 5, -10, 7, -8];
+
+      for (let i = 0; i < arr.length; i++) {
+        if (arr[i] < 0) {
+          arr[i]=Math.abs(arr[i]); // Convert to positive
+        }
+      }
+      document.writeln("All positive array:", arr);
+    </script>
+  </body>
+</html>

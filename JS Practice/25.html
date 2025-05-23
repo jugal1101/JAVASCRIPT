@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Create a calculator using switch-case (add, subtract, multiply, divide).
+
+      let first_num = parseInt(prompt("enter your first number"));
+      let choice = prompt("+ - * /");
+      let sec_num = parseInt(prompt("enter your second number"));
+      let result;
+
+      switch (choice) {
+        case "+":
+          result = first_num + sec_num;
+          break;
+        case "-":
+          result = first_num + sec_num;
+          break;
+        case "*":
+          result = first_num + sec_num;
+          break;
+        case "/":
+          if (num2 !== 0) {
+            result = first_num / sec_num;
+          } else {
+            result = "Cannot divide by zero!";
+          }
+          break;
+        default:
+        result = "Invalid operator!";
+      }
+
+      alert("Result: " + result);
+    </script>
+  </body>
+</html>

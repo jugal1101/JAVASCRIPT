@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Accept 5 subject marks and find total, average, and grade.
+
+      let S1 = parseFloat(prompt("Enter marks for Subject 1:"));
+      let S2 = parseFloat(prompt("Enter marks for Subject 2:"));
+      let S3 = parseFloat(prompt("Enter marks for Subject 3:"));
+      let S4 = parseFloat(prompt("Enter marks for Subject 4:"));
+      let S5 = parseFloat(prompt("Enter marks for Subject 5:"));
+
+      let total = S1 + S2 + S3 + S4 + S5;
+      let average = total / 5;
+
+      let grade;
+
+      if (average >= 90) {
+        grade = "A+";
+      } else if (average >= 80) {
+        grade = "A";
+      } else if (average >= 70) {
+        grade = "B";
+      } else if (average >= 60) {
+        grade = "C";
+      } else if (average >= 50) {
+        grade = "D";
+      } else grade = "F";
+
+      alert(
+        "Total: " +
+          total +
+          "\nAverage: " +
+          average +
+          "\nGrade: " +
+          grade
+      );
+    </script>
+  </body>
+</html>

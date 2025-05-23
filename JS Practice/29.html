@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Count total positive and negative elements in an array
+
+        let arr=[1,2,3,4,-3,-2,-7]
+        let positive_num=0
+        let negative_num=0
+
+        for(let i=0; i<arr.length; i++){
+          if(arr[i]>0){
+              positive_num++;
+          }else{
+             negative_num++;
+          }
+        }
+
+        document.writeln("Total Positive number:"+ positive_num)
+        document.writeln("<br>")
+        document.writeln("Total Negative number:"+ negative_num)
+    </script>
+</body>
+</html>

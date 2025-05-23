@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Check whether a character is uppercase, lowercase, digit, or special symbol.
+
+        let characters = 10;
+
+        if(character>="A" && character<="Z"){
+           document.writeln( `${character} is uppercase`)
+        }else if(character>="a" && character<="z"){
+            document.writeln(`${character} is lowercase`)
+        }else if(character>=0 && character<=9){
+            document.writeln(`${character}is digit `)
+        }else if(character.length !==1){
+            document.writeln("enter one character only")
+        }else{
+            document.writeln(`${character} is special character`)
+        }
+    </script>
+</body>
+</html>

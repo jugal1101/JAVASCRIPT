@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Create a program that takes student names and marks, stores in array, and shows highest scorer.
+
+      let students = [];
+      let num = parseInt(prompt("Enter number of students:"));
+
+      for (let i = 0; i < num; i++) {
+        let name = prompt(`Enter name of student ${i + 1}:`);
+        let marks = parseFloat(prompt(`Enter marks of ${name}:`));
+        students.push({ name: name, marks: marks });
+      }
+
+      // Find highest scorer
+      let highest = students[0];
+      for (let i = 1; i < students.length; i++) {
+        if (students[i].marks > highest.marks) {
+          highest = students[i];
+        }
+      }
+
+      alert(`Highest scorer: ${highest.name} with ${highest.marks} marks`);
+    </script>
+  </body>
+</html>

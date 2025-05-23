@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Create a login system using username/password and give 3 attempts.
+      const correctUsername = "admin";
+      const correctPassword = "1234";
+      let attempts = 3;
+
+      while (attempts > 0) {
+        let username = prompt("Enter username:");
+        let password = prompt("Enter password:");
+
+        if (username === correctUsername && password === correctPassword) {
+          alert("Login successful!");
+          break;
+        } else {
+          attempts--;
+          if (attempts > 0) {
+            alert(`Incorrect login. You have ${attempts} attempt(s) left.`);
+          } else {
+            alert("You have been locked out. No attempts remaining.");
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

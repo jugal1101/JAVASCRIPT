@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Create array of objects for students and sort by marks.
+
+      let students = [
+        {
+          name: "suraj yadav",
+          marks: 36,
+        },
+        {
+          name: "akhilesh sharma",
+          marks: 46,
+        },
+        {
+          name: "hardik jain",
+          marks: 27,
+        },
+      ];
+
+      students.sort((a, b) => a.marks - b.marks);
+     console.log(students);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quotes Generator</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      background-image: url("https://img.freepik.com/free-photo/top-view-monochrome-paper_23-2149062051.jpg?semt=ais_items_boosted&w=740");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 250px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+    }
+
+    .container {
+        height: 150px;
+      max-width: 800px;
+      width: 100%;
+      background: #ffffff7c;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(48, 48, 48, 0.1);
+      padding: 40px;
+    }
+
+    h1 {
+ margin: 0;
+      text-align: center;
+      color: black;
+      font-size: 40px;
+    }
+span{
+    align-items: center;
+}
+
+  </style>
+</head>
+<body>
+    <h1 class="mb-5">Quotes</h1>
+  <div class="container">
+   <span class="fs-4" id="quotes">
+   </span>
+ </div>
+ <button type="button" class="btn btn-primary mt-5" id="btn">Refresh</button>
+ <script src="main.js"></script>
+</body>
+</html>

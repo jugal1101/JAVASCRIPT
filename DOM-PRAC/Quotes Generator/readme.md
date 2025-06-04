@@ -19,7 +19,11 @@ Welcome to the **Random Quote Generator**! ✨ This simple web app dynamically d
 
 ## 📸 Preview
 
-*(Include a screenshot or GIF here if available)*
+
+
+https://github.com/user-attachments/assets/888ae236-e96f-498a-953c-784dbfef8c8c
+
+
 
 ## 📚 How It Works
 

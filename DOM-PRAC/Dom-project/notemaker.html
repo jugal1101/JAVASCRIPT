@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NoteMaker App</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f6fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #4a69bd;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 5% auto ;
+      padding: 1rem;
+      background: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+      width: 95%;
+    }
+
+    button {
+      width: 100%;
+      background-color: #4a69bd;
+      color: white;
+      border: none;
+      padding: 15px;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+      margin-bottom: 20px;
+    }
+
+    button:hover {
+      background-color: #ec4e4e;
+    }
+
+    .notes {
+      margin-top: 2rem;
+    }
+
+    .note {
+      background: #f1f2f6;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-left: 5px solid #4a69bd;
+      border-radius: 4px;
+    }
+
+    .note p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>📝 NoteMaker</header>
+
+  <div class="container">
+      <textarea id="input" placeholder="Write note here..." class=""></textarea>
+      <button type="submit" id="submit">Add Note</button>
+  </div>
+  
+  <script>
+   let input = document.querySelector("#input")
+   let button = document.querySelector("#submit")
+   let container = document.querySelector(".container")
+   button.addEventListener('click',()=>{
+    let newdiv = document.createElement("div")
+    newdiv.textContent = ": "+input.value 
+    container.appendChild(newdiv)
+    input.value = "";
+   })  
+  </script>
+
+</body>
+</html>

@@ -18,6 +18,11 @@ Frontend: HTML, CSS (Bootstrap 5), JavaScript (Vanilla)
 No backend or database — data stored temporarily in JavaScript array (non-persistent)
 
 📸 UI Preview
+
+
+https://github.com/user-attachments/assets/f2fec386-0a37-4322-b312-3131d7301a0b
+
+
 Simple interface featuring:
 
 A header bar with title

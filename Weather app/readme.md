@@ -18,3 +18,7 @@ A sleek and simple weather application that provides real-time weather informati
 
 
 ## 📷 Demo
+
+https://github.com/user-attachments/assets/ba9fe1dc-4bcd-477b-abe7-9aa3f3254643
+
+

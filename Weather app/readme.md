@@ -1,0 +1,20 @@
+# 🌤️ Weather App
+
+A sleek and simple weather application that provides real-time weather information for any location worldwide. Built using modern web technologies and powered by a reliable weather API.
+
+## 🚀 Features
+
+- 🌍 Search weather by city or current location
+- 📍 Displays temperature, humidity, wind speed, and weather description
+- 🕒 Shows current time and local timezone
+- 🌤️ Dynamic icons and background based on weather condition
+- 📱 Fully responsive for mobile and desktop
+
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript (or React/Vue/Angular if applicable)
+- **API**: [OpenWeatherMap](https://openweathermap.org/api) / WeatherAPI / Any other
+- **Other**: Geolocation API (optional), Axios/Fetch for API calls
+
+
+## 📷 Demo

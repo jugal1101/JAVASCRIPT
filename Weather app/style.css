@@ -1,0 +1,95 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right top, #BB8493, #49243E);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .weather-container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px 30px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  input {
+    padding: 12px 15px;
+    width: 65%;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  input:hover {
+    border: 3px solid rgba(11, 93, 105, 0.786);
+  }
+  
+  button {
+    padding: 12px 18px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #383939;
+    color: white;
+  }
+  
+  .result {
+    margin-top: 25px;
+  }
+  
+  .result h2 {
+    font-size: 32px;
+  }
+  
+  .result img {
+    width: 100px;
+    margin: 15px 0;
+  }
+  
+  .result p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .result h3 {
+    font-size: 32px;
+    margin: 10px 0;
+  }
+  
+
+  

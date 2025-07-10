@@ -10,13 +10,6 @@ A sleek and simple weather application that provides real-time weather informati
 - 🌤️ Dynamic icons and background based on weather condition
 - 📱 Fully responsive for mobile and desktop
 
-## 🛠️ Tech Stack
-
-- **Frontend**: HTML, CSS, JavaScript (or React/Vue/Angular if applicable)
-- **API**: [OpenWeatherMap](https://openweathermap.org/api) / WeatherAPI / Any other
-- **Other**: Geolocation API (optional), Axios/Fetch for API calls
-
-
 ## 📷 Demo
 
 https://github.com/user-attachments/assets/ba9fe1dc-4bcd-477b-abe7-9aa3f3254643

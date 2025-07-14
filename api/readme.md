@@ -62,3 +62,9 @@ You can remove items directly from the cart.
  ## Demo
 
 
+
+https://github.com/user-attachments/assets/de7e99b4-a2c7-4442-b97e-a7dc7792794e
+
+
+
+
